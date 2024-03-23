@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Utility library for managing flash messages, alerts, notifications, loading bars, and confirmation messages in web applications.",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build"
