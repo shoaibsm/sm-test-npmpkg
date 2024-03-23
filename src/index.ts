@@ -1,14 +1,14 @@
 export class log {
     static success (msg: string) {
-        console.log(`%c ${msg} , 'color: green'`);
+        console.log(`%c ${msg} `, 'color: green');
         
     }
 
     static danger (msg: string) {
-        console.log(`%c ${msg} , 'color: red'`);
+        console.log(`%c ${msg}` , 'color: red');
     }
 
     static info(msg: string) {
-        console.log(`%c ${msg} , 'color: black; background: yellow'`);
+        console.log(`%c ${msg}` , 'color: black; background: yellow');
     }
 }
