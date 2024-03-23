@@ -1,12 +1,37 @@
 {
-  "name": "sm-test-npmpkg",
+  "name": "sm-utilscraft",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Utility library for managing flash messages, alerts, notifications, loading bars, and confirmation messages in web applications.",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "flash messages",
+    "alerts",
+    "notifications",
+    "loading bars",
+    "confirmation messages",
+    "utility library",
+    "web applications",
+    "frontend",
+    "UI components",
+    "React",
+    "Vue",
+    "Angular",
+    "JavaScript",
+    "TypeScript",
+    "npm package"
+  ],
+  "author": "Shoaib Mohammed <shoaib.sm6655@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shoaibsm/sm-utilsCraft/issues"
+  },
+  "homepage": "https://github.com/shoaibsm/sm-utilsCraft#readme",
+  "devDependencies": {
+    "typescript": "^5.4.3"
+  },
+  "files": ["lib/**/*"]
 }
